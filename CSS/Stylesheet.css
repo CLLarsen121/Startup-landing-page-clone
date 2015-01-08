@@ -46,3 +46,93 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*End of Reset */
+/* Start of Custom Styles */
+.body {
+	/*background-color: LightGray;*/
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.div {
+	/*border: 1px solid Chocolate*/;
+}
+.content {
+	padding: 0 0.938rem;
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	margin: 1 auto;	
+}
+.top-navigation .logo {
+	height: 70px;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.introduction {
+	background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.562rem;
+}
+/**
+ * The Buttons
+ */
+ .introduction .buttons {
+ 	color: white;
+ 	text-align: center;
+ 	margin-top: 1.562rem;
+ 	text-shadow: none;
+ 	border-style: none;
+ 	border-radius: 4px;
+ 	padding: 16px 26px
+ 	line-height: 1.33;
+ 	cursor: hover;
+ }
+ .introduction .half {
+ 	width: 49%;
+ 	padding: 0 0.938rem;
+ 	display: inline-block;
+ 	vertical-align: bottom;
+ 	font-size: 1.125rem;
+ 	line-height: 1.2;
+ }
